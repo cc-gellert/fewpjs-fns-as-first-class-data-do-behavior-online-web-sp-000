@@ -21,15 +21,6 @@ function greet(time){
 
 function displayMessage(str){
   const node = document.getElementById('greeting'); 
-  node.textContent = greet(str); 
+  node.textContent = str; 
 }
 
- describe("displayMessage() function", () => {
-    it("updates the DOM with an appropriate message", () => {
-      let testContent = "TEST"
-      displayMessage(testContent)
-      let content = document.getElementById("greeting").innerText
-      expect(content).to.equal(testContent)
-    })
-  })
-})
