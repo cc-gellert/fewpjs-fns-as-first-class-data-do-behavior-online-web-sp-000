@@ -18,5 +18,10 @@ function greet(time){
   }
 }; 
 
+function displayMessage(str){
+  node = 
+  node.textContent = greet(time); 
+}
+
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
