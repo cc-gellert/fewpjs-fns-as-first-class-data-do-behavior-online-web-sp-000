@@ -24,5 +24,12 @@ function displayMessage(str){
   node.textContent = greet(str); 
 }
 
-/* Write your implementation of greet() */
-/* Write your implementation of displayMessage() */
+ describe("displayMessage() function", () => {
+    it("updates the DOM with an appropriate message", () => {
+      let testContent = "TEST"
+      displayMessage(testContent)
+      let content = document.getElementById("greeting").innerText
+      expect(content).to.equal(testContent)
+    })
+  })
+})
