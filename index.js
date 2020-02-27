@@ -20,7 +20,7 @@ function greet(time){
 
 function displayMessage(str){
   node = 
-  node.textContent = greet(time); 
+  node.textContent = greet(str); 
 }
 
 /* Write your implementation of greet() */
