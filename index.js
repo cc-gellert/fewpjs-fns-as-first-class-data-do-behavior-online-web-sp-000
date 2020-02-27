@@ -9,7 +9,7 @@ function handleClick(e) {
 
 function greet(time){
   let splits = time.split(":")[0]
-  let int = splits.parseInt(splits); 
+  let int = parseInt(splits); 
   if(int < 12){
     return "Good Morning";
   } else if (12 < time < 17){
