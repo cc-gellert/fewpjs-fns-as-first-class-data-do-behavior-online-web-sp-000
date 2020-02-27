@@ -8,7 +8,7 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(time){
-  let int = time.toInteger(); 
+  let int = time.parseInt(); 
   if(time < 12:00)
 }
 
