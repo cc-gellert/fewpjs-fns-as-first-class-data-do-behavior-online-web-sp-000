@@ -19,7 +19,7 @@ function greet(time){
 }
 
 function displayMessage(str){
-  node = 
+  node = document.getElementById('greeting'); 
   node.textContent = greet(str); 
 }
 
