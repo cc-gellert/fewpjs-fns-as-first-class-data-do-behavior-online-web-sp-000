@@ -16,7 +16,7 @@ function greet(time){
   } else {
     return "Good Evening";
   }
-}; 
+}
 
 function displayMessage(str){
   node = 
