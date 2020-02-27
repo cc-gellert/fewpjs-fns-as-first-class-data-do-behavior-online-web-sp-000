@@ -8,10 +8,10 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 function greet(time){
-  let int = time.parseInt(); 
-  if(int < 12:00){
+  let int = time.split(":")[0].parseInt(); 
+  if(int < 12){
     return "Good Morning";
-  } else if (12:00 < time < 17:00){
+  } else if (12 < time < 17){
     return "Good Afternoon";
   } else {
     return "Good Evening";
